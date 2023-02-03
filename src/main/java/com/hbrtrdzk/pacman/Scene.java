@@ -1,6 +1,4 @@
-package src.main.java;
-
-import src.main.java.ghosts.*;
+package com.hbrtrdzk.pacman;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -13,6 +11,9 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Arrays;
+
+import com.hbrtrdzk.pacman.ghosts.*;
+import com.hbrtrdzk.pacman.constants.*;
 
 /**
  * Class with GUI implementation and all the game objects.
@@ -145,7 +146,7 @@ public class Scene extends GameConsts implements ActionListener {
     }
 
     /**
-     * This method checks whether one of the ghosts catched PacMan.
+     * This method checks whether one of the com.hbrt_rdzk.pacman.ghosts catched PacMan.
      * 
      * @return
      */

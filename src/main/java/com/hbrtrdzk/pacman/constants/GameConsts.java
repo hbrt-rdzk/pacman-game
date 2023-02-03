@@ -1,4 +1,4 @@
-package src.main.java;
+package com.hbrtrdzk.pacman.constants;
 
 import java.awt.*;
 import java.util.Arrays;

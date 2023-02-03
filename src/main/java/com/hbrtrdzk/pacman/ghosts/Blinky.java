@@ -1,7 +1,7 @@
-package src.main.java.ghosts;
+package com.hbrtrdzk.pacman.ghosts;
 
-import src.main.java.GameConsts;
-import src.main.java.Ghost;
+import com.hbrtrdzk.pacman.constants.GameConsts;
+import com.hbrtrdzk.pacman.Ghost;
 
 import java.io.File;
 import java.io.IOException;

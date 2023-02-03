@@ -2,10 +2,10 @@
 
 PacMan game created with multithread approach, using swing library.
 
-Game contains score checking, UI, four AI driven ghosts and is controlled by users input.
+Game contains score checking, UI, four AI driven ghosts and pacman, controlled by users input.
+
+Project is supported for java 8 and later.
 
 ## To run:
 
-`javac src/Main.java`
-
-`java src/Main`
+`mvn clean compile exec:java`

@@ -1,4 +1,6 @@
-package src.main.java;
+package com.hbrtrdzk.pacman;
+
+import com.hbrtrdzk.pacman.constants.GameConsts;
 
 import java.awt.image.BufferedImage;
 import java.io.File;

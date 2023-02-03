@@ -1,7 +1,7 @@
-package src.main.java.ghosts;
+package com.hbrtrdzk.pacman.ghosts;
 
-import src.main.java.GameConsts;
-import src.main.java.Ghost;
+import com.hbrtrdzk.pacman.constants.GameConsts;
+import com.hbrtrdzk.pacman.Ghost;
 
 import java.io.IOException;
 import java.io.File;
@@ -9,7 +9,7 @@ import javax.imageio.ImageIO;
 import java.awt.*;
 
 /**
- * Inky is a ghost, that randomly copies movement of one of the other ghosts.
+ * Inky is a ghost, that randomly copies movement of one of the other com.hbrt.rdzk.ghosts.
  */
 public class Inky extends Ghost {
     private Threader thread;
@@ -61,7 +61,7 @@ public class Inky extends Ghost {
      */
     private class Threader extends Thread {
         /**
-         * This method sets Inky's posistion based on one of the other three ghosts
+         * This method sets Inky's posistion based on one of the other three com.hbrt.rdzk.ghosts
          * movement.
          * 0 - Blinky's movement.
          * 1 - Clyde's movement.

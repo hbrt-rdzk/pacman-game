@@ -3,7 +3,7 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.hbrt.rdzk</groupId>
+    <groupId>com.hbrtrdzk</groupId>
     <artifactId>pacman</artifactId>
     <packaging>jar</packaging>
     <version>1.0.0</version>
@@ -11,22 +11,16 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
-    <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-dependency-plugin</artifactId>
-        <executions>
-            <execution>
-                <id>copy-dependencies</id>
-                <phase>prepare-package</phase>
-                <goals>
-                    <goal>copy-dependencies</goal>
-                </goals>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.1.0</version>
                 <configuration>
-                    <outputDirectory>
-                        ${project.build.directory}/libs
-                    </outputDirectory>
+                    <mainClass>com.hbrtrdzk.pacman.Main</mainClass>
                 </configuration>
-            </execution>
-        </executions>
-    </plugin>
+            </plugin>
+        </plugins>
+    </build>
 </project>

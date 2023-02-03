@@ -1,7 +1,6 @@
-package src.main.java;
+package com.hbrtrdzk.pacman;
 
 import java.io.IOException;
-
 /**
  * The PacMan program is a java implementation of this popular arcade game,
  * with usage of java swing as UI.
@@ -10,9 +9,10 @@ import java.io.IOException;
  * @version 1.0
  * @since 2022-05-03
  */
-class Main {
+public class Main {
     public static void main(String[] args) throws InterruptedException, IOException {
-        Scene scene = new Scene();
-        scene.setScene();
+       Scene scene = new Scene();
+       scene.setScene();
+        System.out.println("1234");
     }
 }
